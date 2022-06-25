@@ -2,7 +2,7 @@ import { StyleSheet } from "react-native";
 
 export const styles = StyleSheet.create({
     wrapper: {
-        paddingTop: 60,
+        paddingTop: 40,
         flex: 1,
         backgroundColor: 'black'
     },
@@ -44,7 +44,7 @@ export const styles = StyleSheet.create({
         height: 30
     },
 
-    logoWrapper: {
+    topWrapper: {
         flexDirection: "row",
         alignItems: "center",
         marginBottom: 30

@@ -7,7 +7,7 @@ import logo from "../../assets/icons/logo.png"
 export const Login = () => {
     return (
         <View style={styles.wrapper}>
-            <View style={styles.logoWrapper}>
+            <View style={styles.topWrapper}>
                 <Image source={leftArrow} style={styles.arrowIcon}/>
                 <Image source={logo} style={styles.logo}/>
             </View>
